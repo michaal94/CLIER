@@ -1,0 +1,52 @@
+---
+layout: home
+paginate: true
+alt_title: "Closed Loop Interactive Embodied Reasoning"
+sub_title: "A Benchmark for Visual and Manipulation Reasoning"
+image: /assets/images/NS_AP_main_noboarder.png
+introduction: |
+  Closed Loop Interactive Embodied Reasoning is a model for interactive reasoning in a tabletop scenario. We indroduce:
+  - a modular simulation framework with accurate MuJoCo physics calculation, and high-quality, realistic Blender-based visual rendering (MuBlE),
+  - a modular benchmarking pipeline that enables the use of symbolic manipulator
+  subroutines,
+  - a dataset visual and manipulation reasoning in tabletop scenario  (SHOP-VRB2).
+actions:
+  - label: "Code"
+    icon: github
+    url: "https://github.com/michaal94/CLIER"
+  - label: "Download"
+    icon: download
+    url: "https://michaal94.github.io/CLIER/codebase"
+  - label: "Documentation"
+    icon: document
+    url: "https://michaal94.github.io/CLIER-docs"
+carousels:
+  - images: 
+    - image: ./assets/images/task_gif_0.gif
+    - image: ./assets/images/task_gif_1.gif
+    - image: ./assets/images/task_gif_2.gif
+    - image: ./assets/images/task_gif_3.gif
+    - image: ./assets/images/task_gif_4.gif
+    - image: ./assets/images/task_gif_5.gif
+    - image: ./assets/images/task_gif_6.gif
+    - image: ./assets/images/task_gif_7.gif
+    - image: ./assets/images/task_gif_8.gif
+    - image: ./assets/images/task_gif_9.gif
+---
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "Dataset",
+    "name": "Closed Loop Interactive Embodied Reasoning",
+    "url": "https://michaal94.github.io/CLIER/codebase/",
+    "description": "We propose the dataset for visual and mainpulation reasoning. We provide a set of high-quality visual scenes associated with natural language instructions. Along that, we provide ground truth sequences of actions that lead to successful task execution along with collected visual and physical observations. Visit our website https://michaal94.github.io/NS-AP for more information. Head to https://michaal94.github.io/NS-AP/codebase/ to find download links. Due to larger size of the dataset, we enable download of smaller samples, and download separated with respect to instruction objectives.",
+    "creator":{"@type":"Person","name":"Michal Nazarczuk"},
+    "license": "MIT"
+  }
+</script>
+<div style="height: 60vh; text-align: center;">
+  <iframe style="height: 100%; width: 60%; border: none; margin-left: auto; margin-right: auto;"
+  src="https://www.youtube.com/embed/LRuj74lGJMU">
+  </iframe>
+</div>
+{% include carousel.html width="70%" height="63.2" unit="%" duration="60" number="1" %}

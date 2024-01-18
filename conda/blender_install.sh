@@ -1,5 +1,5 @@
 cd ..
-wget https://builder.blender.org/download/daily/archive/blender-2.83.20-stable+v283.a56e2faeb7a9-linux.x86_64-release.tar.xz
+wget https://ftp.halifax.rwth-aachen.de/blender/release/Blender2.83/blender-2.83.20-linux-x64.tar.xz
 sudo tar -xvf blender-2.83.20* --strip-components=1 -C /bin
 rm -rf blender-2.83.20*
 rm -rf blender-2.83.20*
